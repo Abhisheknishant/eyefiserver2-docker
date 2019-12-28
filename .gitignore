@@ -1,5 +1,2 @@
-/tmp
-/usr/local/bin/eyefiserver.py.orig
-/qpkg/build
-/qpkg/config
-/qpkg/shared
+/venv/
+.idea
