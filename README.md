@@ -1,19 +1,13 @@
-eyefiserver2
-============
+#EyeFi Server 2 for Docker
+Eye-Fi SD cards are designed to uploads pictures and videos from your digital camera to a computer, using wifi.
+Initially these cards were designed to work with the manufacturer software, both on a local computer and on a cloud 
+service.
 
-There aren't really any active developers except for me. If you'd like to make a donation to help fix any of the open issues, you can make a donation here: https://gratipay.com/dgrant/
+Unfortunately the cloud service has been discontinued, then the manufacturer shut down; there is no longer an official 
+support for the existing hardware.
 
-A standalone Eye-Fi server in Python, for Linux
+Several projects filled the gap and allowed the cards to remain partially functional - See [Attribution below](#Attribution).
 
-This is a "fork" of the defunct eyefiserver project at http://code.google.com/p/eyefiserver.
 
-Eye-Fi memory cards send pictures from digital cameras to your computer (or any machine on your network) using wifi. Read more about Eye-Fi at http://eye.fi
-
-This is a based on [the work of Jeff Tchang](http://returnbooleantrue.blogspot.nl/2009/01/eye-fi-standalone-server.html).
-
-There is a similar project at
-
-    https://launchpad.net/eyefi
-
-See GettingStarted for more information on how to use eyefiserver2
-
+##Attribution
+This is a fork of [David Grant's EyeFI Server 2](https://github.com/dgrant/eyefiserver2), which is itself based on [the work of Jeff Tchang](http://returnbooleantrue.blogspot.nl/2009/01/eye-fi-standalone-server.html).
