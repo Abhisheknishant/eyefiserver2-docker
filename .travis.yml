@@ -37,7 +37,7 @@ jobs:
       arch: amd64
       os: linux
       node_js: lts/*
-      if: tag IS blank AND branch = master AND type != pull_request AND fork = false
+      if: tag IS blank AND branch = master AND type != pull_request
       script:
         - build/autotag.sh
 
@@ -45,7 +45,7 @@ jobs:
       arch: amd64
       os: linux
       language: shell
-      if: tag IS present and fork = false
+      if: tag IS present
       workspaces:
         use:
           - docker-image-amd64
