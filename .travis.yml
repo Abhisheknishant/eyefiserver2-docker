@@ -60,6 +60,6 @@ jobs:
       language: shell
       arch: amd64
       os: linux
-      if: tag IS present and fork = false
+      if: tag IS present
       script:
         - IMAGE_VERSION=${TRAVIS_TAG} build/manifest.sh
