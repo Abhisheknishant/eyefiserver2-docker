@@ -2,4 +2,4 @@
 /venv/
 /.idea/
 /uploads/
-docker-compose.yml
+/local/
